@@ -13,6 +13,16 @@
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "port": 9229
+        },
+        
+        {"type": "node",
+        "request": "launch",
+        "name": "nodemon",
+        "runtimeExecutable": "${workspaceFolder}/node_modules/nodemon/bin/nodemon.js",
+        "program": "${workspaceFolder}/src/apiRouter.js",
+        "restart": true,
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
         }
     ]
 }
